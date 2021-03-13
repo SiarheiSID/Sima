@@ -784,17 +784,15 @@ header{
 	justify-content: space-between;
 	margin-bottom: 50px;
 	flex-wrap: wrap;
-
-
-
 }
+
 .services_item{
-	border: 3px solid silver;
+	border: 3px solid #820c25;
 
 	border-radius: 10px;
 	/*min-width: 360px;*/
-	width: 250px;
-	height: 200px;
+	min-width: 250px;
+	min-height: 200px;
 	text-align: center;
 	/*padding: 30px 0px 80px;*/
 	position: relative;
@@ -806,7 +804,63 @@ header{
 
 }
 
+.services_item-3Dkitch{
+	background-image: url(../img/3Dkitch.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border-radius: 10px;
+}
 
+.services_item-delivery{
+	background-image: url(../img/dostavka.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border-radius: 10px;
+}
+
+.services_item-instal{
+	background-image: url(../img/instal3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border-radius: 10px;
+}
+
+.services_item-security{
+	background-image: url(../img/security2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	right: 0;
+	width: 80%;
+	height: 100%;
+	position: absolute;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+h2 {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	text-shadow: 3px 3px 10px black;
+	
+}
 
 .services_item-title{
 	color: #212020;
@@ -815,13 +869,34 @@ header{
 	font-weight: 500;
 	font-family: 'Roboto',sans-serif;
 	padding: 24px 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 }
 .services_item-text{
-	letter-spacing: 0.1px;
-	padding: 0px 30px 30px;
-
-
+	position: absolute;
+	top: 60%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	text-shadow: 3px 3px 7px black;
+	font-size: 18px;
+	}
+.services_item-text-point{
+	
+	position: absolute;
+	top: 10px;
+	left: 80%;
+	height: 80px;
+	width: 80px;
+	background-image: url(../img/point.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 10px;
 }
+
 .services_item-btn{
 	position: absolute;
 	bottom: 40px;
@@ -853,7 +928,12 @@ header{
 	background-position: center;
 	min-height: 300px;	
 	padding: 45px 0px 45px;
-	height: 800px;
+
+}
+
+.about-sima{
+	color: #fff;
+	text-shadow: 3px 3px 5px black;
 }
 .about_inner{
 	
@@ -884,6 +964,7 @@ header{
 	border-radius: 20px;
 	font-family: 'Roboto',sans-serif;
 	overflow: hidden;
+	box-shadow: 2px 2px 25px black;
 }
 
 .img-kitchens{
@@ -916,6 +997,7 @@ header{
 	height: 100%;
 	border: 3px solid #fff;
 	text-align: center;
+	box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.9)
 }
 
 .light-slider_slide-img{
@@ -935,6 +1017,7 @@ h3 {
 	color: #fff;
 	padding: 0;
 	margin: 0;
+	text-shadow: 3px 3px 10px black;
 	
 }
 
@@ -944,6 +1027,7 @@ h3 {
 	line-height: 24px;
 	color: #d2d3d3;
 	text-align: center;
+	text-shadow: 3px 3px 5px black;
 }
 
 .about_btn .defolt-btn:after{
