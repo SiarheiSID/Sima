@@ -267,7 +267,7 @@ header{
 	
 }
 
-.slider_title{
+.slider_title {
 	text-transform: uppercase;
 	font-size: 30px;
 	line-height: 36px;
@@ -471,9 +471,11 @@ header{
 
 	.services_title-box{
 		width: 100%;
-		padding-top: 10px;	
+		padding-top: 30px;	
 		position: relative;
 		text-align: center;
+		font-size: 18px;
+		line-height: 24px;
 	}
 	.form_title-box,
 	.news_title-box{
@@ -482,6 +484,7 @@ header{
 		padding-top: 5px;	
 		position: relative;
 		text-align: center;
+
 	}
 
 	.services_title-qualities-first,
@@ -539,12 +542,12 @@ header{
 		translateY(0%);
 	}
 
-	10%{
+	2%{
 		transform: rotateX(180deg)
 		translateY(-25%);
 	}
 
-	25%{
+	4%{
 		transform: rotateX(0deg)
 		translateY(-50%);
 		opacity: 0.05;
@@ -626,12 +629,12 @@ header{
 		translateY(0%);
 	}
 
-	10%{
+	2%{
 		transform: rotateX(180deg)
 		translateY(25%);
 	}
 
-	25%{
+	4%{
 		transform: rotateX(0deg)
 		translateY(50%);
 		opacity: 0.05;
@@ -1416,6 +1419,59 @@ h3 {
 	#header_btn-check{
 		display: none;
 	}
+
+
+
+
+
+
+
+
+
+
+.staff, .staff_title,  .staff_duties{
+	background-color: #f9f9f9;
+	font-family: 'Roboto',sans-serif;
+	font-size: 16px;
+	color: #111;
+	letter-spacing: normal;
+	line-height: 24px;
+	padding: 5px 90px;
+}
+
+.staff_title{
+	font-weight: 650;
+	border-bottom: 2px solid #111;
+	letter-spacing: 0.2em;
+	margin:10px 0;
+
+}
+
+
+.staff_requires-title{
+	font-weight: 650;
+	margin:10px 0;
+	letter-spacing: 0.1em;
+}
+
+.staff_duties{
+	font-weight: 500;
+	margin:10px 0;
+
+}
+
+.staff_requires-title{
+
+}
+.staff_requires{
+	margin:10px 0;
+}
+.staff_salary{
+	margin: 20px 0  80px 0;
+
+}
+
+
 
 
 
