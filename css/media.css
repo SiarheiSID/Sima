@@ -4,6 +4,10 @@
 		display: block;
 		}*/
 
+		/*.services_title-box-in{
+			display: block !important;
+		}*/
+
 		.services_item{
 			max-width: 80%;
 			min-height: 300px;

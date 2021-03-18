@@ -227,7 +227,7 @@ header{
 	transform: translateY(0%);
 }
 
-.slider_item-content-img1{
+.slider_item-content-img1 {
 	background-image: url(../img/Girl6.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -702,7 +702,7 @@ header{
 	height: 30px;
 	margin: 0 auto;
 
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 500;
 	line-height: 30px;
 	color: #212020;
@@ -897,7 +897,7 @@ h2 {
 	margin: 0;
 	text-shadow: 3px 3px 7px black;
 	font-size: 18px;
-	}
+}
 .services_item-text-point{
 	
 	position: absolute;
@@ -1150,7 +1150,7 @@ h3 {
 		top: 0;		
 		overflow: hidden;
 		opacity: 0.5;
-	
+
 		
 
 
@@ -1427,49 +1427,147 @@ h3 {
 
 
 
+	/*Вакансии*/
+
+	.staff, .staff_title,  .staff_duties{
+		background-color: #f9f9f9;
+		font-family: 'Roboto',sans-serif;
+		font-size: 16px;
+		color: #111;
+		letter-spacing: normal;
+		line-height: 24px;
+		padding: 5px 90px;
+	}
+
+	.staff_title{
+		font-weight: 650;
+		border-bottom: 2px solid #111;
+		letter-spacing: 0.2em;
+		margin:10px 0;
+
+	}
 
 
-.staff, .staff_title,  .staff_duties{
-	background-color: #f9f9f9;
-	font-family: 'Roboto',sans-serif;
-	font-size: 16px;
-	color: #111;
-	letter-spacing: normal;
-	line-height: 24px;
-	padding: 5px 90px;
-}
+	.staff_requires-title{
+		font-weight: 650;
+		margin:10px 0;
+		letter-spacing: 0.1em;
+	}
 
-.staff_title{
-	font-weight: 650;
-	border-bottom: 2px solid #111;
-	letter-spacing: 0.2em;
-	margin:10px 0;
+	.staff_duties{
+		font-weight: 500;
+		margin:10px 0;
 
-}
+	}
+
+	.staff_requires-title{
+
+	}
+	.staff_requires{
+		margin:10px 0;
+	}
+	.staff_salary{
+		margin: 20px 0  80px 0;
+
+	}
 
 
-.staff_requires-title{
-	font-weight: 650;
-	margin:10px 0;
-	letter-spacing: 0.1em;
-}
 
-.staff_duties{
-	font-weight: 500;
-	margin:10px 0;
 
-}
 
-.staff_requires-title{
 
-}
-.staff_requires{
-	margin:10px 0;
-}
-.staff_salary{
-	margin: 20px 0  80px 0;
+	/*магазин*/
 
-}
+	.shop{
+
+		background: #777;	
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center ;
+
+		position: relative;
+		margin: 0 0;
+		border: 2px solid #777;
+
+
+
+	}
+
+	.shop_boxs{
+
+		height: 304px;
+		margin: 20px 0;
+		border:2px solid silver;
+		display: flex;
+		justify-content: center;
+
+
+		
+	}
+
+	.shop-img{
+
+
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		height: 300px;
+		width: 300px;		
+	}
+
+	
+
+	.shop-img-roller{
+		background-image: url(../img/eqv/roller.jpg);
+	}
+
+	.shop-img-addit{
+		background-image: url(../img/eqv/addit.jpg);
+	}
+
+	.shop-img-edge{
+		background-image: url(../img/eqv/edge.jpg);
+	}
+
+	.shop-img-saw1{
+		background-image: url(../img/eqv/Saw1.jpg);
+	}
+
+	.shop-img-saw2{
+		background-image: url(../img/eqv/Saw2.jpg);
+	}
+
+	.shop_boxs-title{
+		width: 400px;
+		margin-left: 30px;
+		
+
+	}
+
+	.shop-title{
+		font-size: 22px;
+		color: #fff;
+		/*max-height: 500px;
+		min-width: 500px;*/
+		margin-top: 50px;
+
+	}
+
+	.shop-text{
+		box-sizing: border-box;
+		font-size: 16px;
+		color: #fff;
+		margin: 20px 0px 30px 0px;
+
+	}
+
+	.shop_price{
+		box-sizing: border-box;
+		font-size: 16px;
+		color: #fff;
+		margin: 20px 0px 40px 0px;
+
+	}
 
 
 
