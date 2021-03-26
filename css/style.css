@@ -476,11 +476,13 @@ header{
 
 	.services_title-box{
 		width: 100%;
-		padding-top: 30px;	
+		padding-top: 40px;	
 		position: relative;
 		text-align: center;
 		font-size: 18px;
-		line-height: 24px;
+		line-height: 26px;
+		text-align: center;
+		letter-spacing: 0.2px;
 	}
 	.form_title-box,
 	.news_title-box{
@@ -748,7 +750,8 @@ header{
 	font-family: 'ComfortaaB';
 	text-transform: uppercase;
 	margin-bottom: 10px;
-	padding-top: 10px;
+	padding-top: 10px;	
+	
 }
 
 
@@ -1610,8 +1613,23 @@ h3 {
 
 	}
 
+.box{
+	height: 50px;
+	width: 50%;
+	background-color: #555;
+	margin: 5px;
+	font-family: arial;
+	font-size: 16px;
+	color:#fff;
 
+}
 
+.five{
+	color: blue;
+}
+p{
+	width: 50%;
+}
 
 
 
