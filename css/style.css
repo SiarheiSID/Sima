@@ -1,24 +1,10 @@
 @font-face {
-	font-family: ComfortaaM;
-	src: url("../font/Comfortaa-Medium.ttf");
-}
-@font-face {
 	font-family: ComfortaaR;
 	src: url("../font/Comfortaa-Regular.ttf");
 }
 @font-face {
 	font-family: ComfortaaL ;
 	src: url("../font/Comfortaa-Light.ttf");
-}
-
-@font-face {
-	font-family: ComfortaaB;
-	src: url("../font/Comfortaa-Bold.ttf");
-}
-
-@font-face {
-	font-family: ComfortaaB ;
-	src: url("../font/Comfortaa-SemiBold.ttf");
 }
 
 *{
@@ -1018,13 +1004,13 @@ h2 {
 	box-shadow: 2px 2px 25px black;
 }
 
-.img-kitchens{
+.img-catalog{
 	
 	height: 100%;
 	width: 100%;
 }
 
-.img-kitchens-roll{
+.img-catalog-roll{
 	position: absolute;
 	top: 100%;
 	width: 100%;
@@ -1032,8 +1018,14 @@ h2 {
 	/*background: #555;*/
 	transition: top 1.5s ease 0s;
 }
+.kitchen-slider_img,
+.furniture-slider_img,
+.office-slider_img,
+.business-slider_img{
+	height: 100%;
+}
 
-.about_slider-title-item:hover .img-kitchens-roll{	
+.about_slider-title-item:hover .img-catalog-roll{	
 	top: 68%;	
 }
 

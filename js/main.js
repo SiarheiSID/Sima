@@ -13,19 +13,32 @@
 
 	});
 
+	$(".light-slider").lightSlider();
+
 	$('.kitchen-slider_img').fancybox({
-		protect: true
+		backFocus: false,
+		thumbs: {
+			autoStart: true
+		}
 	});
 	$('.furniture-slider_img').fancybox({
-		protect: true
+		backFocus: false,
+		thumbs: {
+			autoStart: true
+		}
 	});
-
-
-
-
-
-
-
+	$('.office-slider_img').fancybox({
+		backFocus: false,
+		thumbs: {
+			autoStart: true
+		}
+	});
+	$('.business-slider_img').fancybox({
+		backFocus: false,
+		thumbs: {
+			autoStart: true
+		}
+	});
 })();
 
 
